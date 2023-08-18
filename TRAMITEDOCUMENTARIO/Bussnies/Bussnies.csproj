@@ -11,4 +11,20 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BDTramiteDocumentarioModel\BDTramiteDocumentarioModel.csproj" />
+    <ProjectReference Include="..\CommonModel\CommonModel.csproj" />
+    <ProjectReference Include="..\IBussnies\IBussnies.csproj" />
+    <ProjectReference Include="..\IRepository\IRepository.csproj" />
+    <ProjectReference Include="..\IServices\IServices.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\RequestResponseModel\RequestResponseModel.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\UtilAutomapper\UtilAutomapper.csproj" />
+    <ProjectReference Include="..\UtilConstants\UtilConstants.csproj" />
+    <ProjectReference Include="..\UtilExcel\UtilExcel.csproj" />
+    <ProjectReference Include="..\UtilPdf\UtilPdf.csproj" />
+    <ProjectReference Include="..\UtilSecurity\UtilSecurity.csproj" />
+  </ItemGroup>
+
 </Project>

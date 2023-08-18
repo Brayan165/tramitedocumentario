@@ -23,4 +23,12 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BDTramiteDocumentarioModel\BDTramiteDocumentarioModel.csproj" />
+    <ProjectReference Include="..\CommonModel\CommonModel.csproj" />
+    <ProjectReference Include="..\IRepository\IRepository.csproj" />
+    <ProjectReference Include="..\RequestResponseModel\RequestResponseModel.csproj" />
+    <ProjectReference Include="..\UtilConstants\UtilConstants.csproj" />
+  </ItemGroup>
+
 </Project>

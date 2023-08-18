@@ -28,4 +28,12 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bussnies\Bussnies.csproj" />
+    <ProjectReference Include="..\CommonModel\CommonModel.csproj" />
+    <ProjectReference Include="..\IBussnies\IBussnies.csproj" />
+    <ProjectReference Include="..\RequestResponseModel\RequestResponseModel.csproj" />
+    <ProjectReference Include="..\UtilSecurity\UtilSecurity.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,29 @@
+
+
+
+
+git add .
+	==> sirve para agregar cambios en nuestro equipo local
+git commit -m "comentario"
+	==> sirve para poner un comentario a los cambios realizados por el comando
+		"git add ."
+git push origin nombre_rama
+	==> sirve para subir cambios al servidor de git (GITLAB)
+		ejemplo: git push origin instalando_librerias
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
