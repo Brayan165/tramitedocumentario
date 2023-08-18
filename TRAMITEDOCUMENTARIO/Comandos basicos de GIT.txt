@@ -11,19 +11,4 @@ git push origin nombre_rama
 	==> sirve para subir cambios al servidor de git (GITLAB)
 		ejemplo: git push origin instalando_librerias
 
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
