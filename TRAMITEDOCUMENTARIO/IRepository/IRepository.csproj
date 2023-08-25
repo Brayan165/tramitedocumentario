@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BDTramiteDocumentarioModel\BDTramiteDocumentarioModel.csproj" />
+  </ItemGroup>
+
 </Project>

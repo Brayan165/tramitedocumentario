@@ -79,7 +79,7 @@ namespace Repository
             return dbContext.SaveChanges();
         }
 
-        public List<Cargo> InsertMultiple(List<Cargo> lista)
+        public List<Cargo> CreateMultiple(List<Cargo> lista)
         {
             dbContext.Cargos.AddRange(lista);
             dbContext.SaveChanges();

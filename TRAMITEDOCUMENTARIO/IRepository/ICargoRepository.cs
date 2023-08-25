@@ -20,7 +20,7 @@ namespace IRepository
         Cargo Update(Cargo entity);
         int Delete(int id);
         int DeleteMultipleItems(List<Cargo> lista);
-        List<Cargo> InsertMultiple(List<Cargo> lista);
+        List<Cargo> CreateMultiple(List<Cargo> lista);
         List<Cargo> UpdateMultiple(List<Cargo> lista);
     }
 }
