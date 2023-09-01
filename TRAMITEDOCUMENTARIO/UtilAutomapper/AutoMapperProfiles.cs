@@ -8,11 +8,16 @@ namespace UtilAutomapper
     {
         public AutoMapperProfiles()
         {
-            //CreateMap<CargoRequest, Cargo>();
-            //CreateMap<Cargo, CargoRequest>();
+
             CreateMap<Cargo, CargoRequest>().ReverseMap();
             CreateMap<Cargo, CargoResponse>().ReverseMap();
             CreateMap<CargoRequest, CargoResponse>().ReverseMap();
+
+            CreateMap<Usuario, UsuarioRequest>().ReverseMap();
+            CreateMap<Usuario, UsuarioResponse>().ReverseMap();
+            CreateMap<UsuarioRequest, UsuarioResponse>().ReverseMap();
+
+
         }
     }
 }
