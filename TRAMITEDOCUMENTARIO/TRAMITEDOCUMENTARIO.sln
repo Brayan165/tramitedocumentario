@@ -17,41 +17,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 UTILITARIOS", "06 UTILIT
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 ANOTACIONES", "10 ANOTACIONES", "{62A4FBD8-44ED-4D1C-A86C-41D03D5AC46F}"
 	ProjectSection(SolutionItems) = preProject
+		JWT.txt = JWT.txt
 		Librerias a instalar.txt = Librerias a instalar.txt
 		Mapeo_BD.txt = Mapeo_BD.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 GENERACION ARCHIVOS", "07 GENERACION ARCHIVOS", "{A644BA02-6ABE-4B77-B1A6-A3763150761A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiWebPage", "ApiWebPage\ApiWebPage.csproj", "{8B5E9BE5-A538-428B-BE33-4530AD2D5AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiWebPage", "ApiWebPage\ApiWebPage.csproj", "{8B5E9BE5-A538-428B-BE33-4530AD2D5AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBussnies", "IBussnies\IBussnies.csproj", "{0F3F8E4F-6E49-4FB0-8F89-E2AF4A2E95EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBussnies", "IBussnies\IBussnies.csproj", "{0F3F8E4F-6E49-4FB0-8F89-E2AF4A2E95EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussnies", "Bussnies\Bussnies.csproj", "{CE135239-B1B0-4A19-A882-9C878E780400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bussnies", "Bussnies\Bussnies.csproj", "{CE135239-B1B0-4A19-A882-9C878E780400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IServices", "IServices\IServices.csproj", "{C6E41ECA-92A6-4074-9417-9E8DA34D62F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServices", "IServices\IServices.csproj", "{C6E41ECA-92A6-4074-9417-9E8DA34D62F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{B72A575C-0B7E-457F-8F02-EE2B6D9A7C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{B72A575C-0B7E-457F-8F02-EE2B6D9A7C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository\IRepository.csproj", "{F08FD551-0F3F-474E-ABFE-341109595196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepository", "IRepository\IRepository.csproj", "{F08FD551-0F3F-474E-ABFE-341109595196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{24A7A795-D98F-4883-9FD1-3FB90F76CB07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{24A7A795-D98F-4883-9FD1-3FB90F76CB07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDTramiteDocumentarioModel", "BDTramiteDocumentarioModel\BDTramiteDocumentarioModel.csproj", "{9E73821C-1058-463B-AE27-622BCBDDC7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDTramiteDocumentarioModel", "BDTramiteDocumentarioModel\BDTramiteDocumentarioModel.csproj", "{9E73821C-1058-463B-AE27-622BCBDDC7B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonModel", "CommonModel\CommonModel.csproj", "{1D00DEC9-0FA0-4329-A54E-C280118D3D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonModel", "CommonModel\CommonModel.csproj", "{1D00DEC9-0FA0-4329-A54E-C280118D3D0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestResponseModel", "RequestResponseModel\RequestResponseModel.csproj", "{A786CE3F-B434-4179-97FB-B0209147BEC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestResponseModel", "RequestResponseModel\RequestResponseModel.csproj", "{A786CE3F-B434-4179-97FB-B0209147BEC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilSecurity", "UtilSecurity\UtilSecurity.csproj", "{E6A2692A-8F0C-4F99-9CD1-10846C0CE314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilSecurity", "UtilSecurity\UtilSecurity.csproj", "{E6A2692A-8F0C-4F99-9CD1-10846C0CE314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilConstants", "UtilConstants\UtilConstants.csproj", "{D8A47F53-355A-4639-8B93-73ADA6E7A25A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilConstants", "UtilConstants\UtilConstants.csproj", "{D8A47F53-355A-4639-8B93-73ADA6E7A25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilExcel", "UtilExcel\UtilExcel.csproj", "{6120542C-58B7-4918-AF2E-A66457BBCDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilExcel", "UtilExcel\UtilExcel.csproj", "{6120542C-58B7-4918-AF2E-A66457BBCDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilPdf", "UtilPdf\UtilPdf.csproj", "{10069B26-D127-447A-B617-099F51203F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilPdf", "UtilPdf\UtilPdf.csproj", "{10069B26-D127-447A-B617-099F51203F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilAutomapper", "UtilAutomapper\UtilAutomapper.csproj", "{671115BB-8C48-41E8-B393-69C44B9020DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilAutomapper", "UtilAutomapper\UtilAutomapper.csproj", "{671115BB-8C48-41E8-B393-69C44B9020DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,6 +2,7 @@
 using Bussnies;
 using IBussnies;
 using IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
@@ -15,6 +16,7 @@ namespace ApiWebPage.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CargoController : ControllerBase
     {
         /*INYECCIÓN DE DEPENDECIAS*/
