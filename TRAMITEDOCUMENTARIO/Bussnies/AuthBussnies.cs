@@ -67,6 +67,8 @@ namespace Bussnies
             result.Rol.Id = usuario.IdRol;
             result.Rol.Codigo = usuario.RolCodigo;
             result.Rol.Descripcion = usuario.RolDescripcion;
+            result.Persona = new PersonaResponse();
+            result.Persona.NombreCompleto = usuario.NombreCompleto;
 
             /*ESTE TIPO DE IMPLEMENTACIÓN NO ES LA MAS OPTIMA*/
             /*

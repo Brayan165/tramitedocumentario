@@ -54,6 +54,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilPdf", "UtilPdf\UtilPdf.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilAutomapper", "UtilAutomapper\UtilAutomapper.csproj", "{671115BB-8C48-41E8-B393-69C44B9020DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiWeb", "ApiWeb\ApiWeb.csproj", "{43A213E8-6E9A-47AC-908B-A208E6A5CA78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,6 +122,10 @@ Global
 		{671115BB-8C48-41E8-B393-69C44B9020DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{671115BB-8C48-41E8-B393-69C44B9020DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{671115BB-8C48-41E8-B393-69C44B9020DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A213E8-6E9A-47AC-908B-A208E6A5CA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A213E8-6E9A-47AC-908B-A208E6A5CA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A213E8-6E9A-47AC-908B-A208E6A5CA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A213E8-6E9A-47AC-908B-A208E6A5CA78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +146,7 @@ Global
 		{6120542C-58B7-4918-AF2E-A66457BBCDC8} = {A644BA02-6ABE-4B77-B1A6-A3763150761A}
 		{10069B26-D127-447A-B617-099F51203F0B} = {A644BA02-6ABE-4B77-B1A6-A3763150761A}
 		{671115BB-8C48-41E8-B393-69C44B9020DE} = {8E391BA1-7ED4-4A49-9355-D6A1B325BF1D}
+		{43A213E8-6E9A-47AC-908B-A208E6A5CA78} = {89F13ECE-8204-44F8-A401-4FF607114BFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FFD6734-BCD0-4F71-B844-0E27F60056E6}

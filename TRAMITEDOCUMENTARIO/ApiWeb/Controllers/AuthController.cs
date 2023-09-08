@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json;
 using RequestResponseModel;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
@@ -13,11 +12,8 @@ using System.Security.Claims;
 using System.Text;
 using UtilSecurity;
 
-namespace ApiWebPage.Controllers
+namespace ApiWeb.Controllers
 {
-    /// <summary>
-    /// METODOS PARA INICIAR SESIÓN
-    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [AllowAnonymous]
@@ -29,7 +25,7 @@ namespace ApiWebPage.Controllers
         private readonly IAuthBussnies _authBussnies;
         private readonly IMapper _mapper;
         private readonly UtilEncriptarDesencriptar _cripto;
-        
+
         public AuthController(IMapper mapper)
         {
             _mapper = mapper;
@@ -107,7 +103,7 @@ namespace ApiWebPage.Controllers
                 configurationFile["Jwt:Issuer"],
                 configurationFile["Jwt:Audience"],
                 claims,
-                expires: DateTime.UtcNow.AddMinutes(tiempoVida),
+                expires: DateTime.UtcNow.AddSeconds(tiempoVida),
                 signingCredentials: signIn);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
