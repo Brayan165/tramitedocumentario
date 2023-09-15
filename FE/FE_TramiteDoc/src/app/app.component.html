@@ -1,0 +1,37 @@
+<h1>LOGIN</h1>
+
+<br>
+<label for="">USUARIO : </label> <input type="text" [(ngModel)]="usuario">
+
+<br><br>
+<label for="">PASSWORD : </label> <input type="text" [(ngModel)]="password">
+
+<br><br>
+<button (click)="iniciarSesion()" >
+  INICIAR SESIÓN
+</button>
+<!-- <h1> Proyecto: Tramite Documentario </h1>
+
+<br>
+<label for="">Nombre Proyecto ANGULAR ||||| </label>
+{{title}}
+
+<br><br><br><br>
+
+<ul *ngFor="let rol of roles">
+  <li> ID: {{rol.id}} | Name: {{rol.name}} </li>
+</ul>
+
+
+<br>
+<h1>existe ek doble binding</h1>
+
+
+<br>
+<h1>NOMBRE DE USUARIO</h1>
+<input type="text" [(ngModel)]="nombreUsuario"> <br>
+<label for=""> {{nombreUsuario}} </label> -->
+
+
+
+<router-outlet></router-outlet>

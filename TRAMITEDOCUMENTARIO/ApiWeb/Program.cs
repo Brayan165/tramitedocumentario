@@ -8,8 +8,25 @@ using UtilAutomapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+
+//CONFIGURACIÓN DEL CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "origins",
+                      builder =>
+                      {
+                          //builder.WithOrigins("http://127.0.0.1:5500");
+                          builder.AllowAnyOrigin();
+                          builder.AllowAnyMethod();//get post put delete patch 
+                          builder.AllowAnyHeader();//
+                      });
+});
+
+
+
+
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -77,5 +94,5 @@ app.UseMiddleware(typeof(ApiMiddleware));
 
 
 app.MapControllers();
-
+app.UseCors("origins");
 app.Run();

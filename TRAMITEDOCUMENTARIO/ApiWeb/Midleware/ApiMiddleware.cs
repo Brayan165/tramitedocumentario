@@ -32,14 +32,11 @@ namespace ApiWeb.Midleware
             try
             {
 
-                string codigoAplicacion = context.Request.Headers["codigoAplicacion"].ToString();
-
-                if(codigoAplicacion == null || codigoAplicacion != "456789")
-                {
-                    throw new Exception("No se envió el código de aplicación correcto");
-                }
-
-
+                //string codigoAplicacion = context.Request.Headers["codigoAplicacion"].ToString();
+                //if(codigoAplicacion == null || codigoAplicacion != "456789")
+                //{
+                //    throw new Exception("No se envió el código de aplicación correcto");
+                //}
 
                 context.Request.EnableBuffering();
                 await next(context);

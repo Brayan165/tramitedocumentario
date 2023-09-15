@@ -11,7 +11,8 @@ namespace ApiWeb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     public class CargoController : ControllerBase
     {
 
@@ -44,10 +45,10 @@ namespace ApiWeb.Controllers
         [ProducesResponseType((int)HttpStatusCode.InternalServerError, Type = typeof(GenericResponse))]
         public IActionResult Get()
         {
-            int a = 0, b=5, c=6;
+            //int a = 0, b=5, c=6;
 
             //sabemos que no puede haber una división entre ==> 0
-            c = b / a;
+            //c = b / a;
 
 
             return Ok(_cargoBussnies.GetAll());
